@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Actividades</title>
+		<script src="javaActividades.js"></script>
+	</head>
+
+	<body>
+
+		<h1>Activitats</h1>
+		
+		<div>
+			<h3>Actividad 1: </h3>
+			<!--Demana un número a l’usuari, valida que el número estigui entre 0 i 10.000. Si el número no està dins del rang avisa a l’usuari, en cas contrari digues-li si és un número primer o no. -->
+
+			<p>Introduce un numero en 0 y 10.000</p>
+			<input type="number" id="this_number">
+			<button onclick="comprobar()">Comprobar</button>
+
+		</div>
+
+		<div>
+			<!-- 
+			Heu de fer un document que sigui un petit joc per encertar un número entre 1 i 500, l'usuari anirà escrivint en una caixa de text el número que creu, si no ho encerta se li dirà si el número a encertar és més gran o més petit. Ha d’haver-hi un màxim d’intens, per exemple 50. Un cop encertat s'escriu en el document el nombre d'intents que ha necessitat l'usuari per a encertar-lo.-->
+
+
+			<h3> Actividad 2: </h3>	
+
+			<p>Vamos a jugar !</p>
+			<p>Introduce un numero entre 0 y 500. Numero maximo de intentos: 50</p>
+
+			<input type="number" id="numero_juego">
+			<button id = "clicks" onclick="acertado()"> Comprueba si has acertado!</button>
+
+		</div>
+
+		<div>
+			<!-- 
+			S’ha de fer un programa que escrigui tots els múltiples de 13 inferiors a 2.000 i per últim ens doni la suma i el producte de tots ells.-->
+
+			<h3>Actividad 3:</h3>
+		
+			<p>Los múltiplos de 13 inferiores de 2000:</p>
+			<p id="multiplos" style="display:none"></p>
+
+			<p>La suma de los múltiplos:</p>
+			<p id="suma" style="display:none"></p>
+
+			<p>El producto de los mútiplos:</p>
+			<p id="producto" style="display:none"></p>
+
+
+			<button type="button" onclick="multiplos_de_13()">Mostrar!</button>
+
+		</div>
+
+	</body>
+</html>
