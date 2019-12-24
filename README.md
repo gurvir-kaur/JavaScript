@@ -1,2 +1,0 @@
-# JavaScript 
- Ejercicios y más. 

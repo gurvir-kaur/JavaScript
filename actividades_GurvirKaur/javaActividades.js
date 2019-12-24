@@ -107,7 +107,7 @@ var contador = 0;
 /** 
 @type {number}
 * @description
-*	Esta variable genera guarda un numero aleatorio.
+*	Esta variable guarda un numero aleatorio.
 */ 
 var aleatorio = Math.round(Math.random()*500);
 
